@@ -2,7 +2,7 @@ node {
 
     stage('SCM Checkout')
     {
-       git credentialsId: 'e7d5c284-cab8-4090-8460-8ad2f0ab8493', url: ''
+       git credentialsId: 'e7d5c284-cab8-4090-8460-8ad2f0ab8493', url: 'https://github.com/ezeyoh/E-votingApp.git'
     }
 
     stage('Run Docker Compose File')
